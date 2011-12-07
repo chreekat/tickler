@@ -17,13 +17,14 @@ USAGE
 First of all
 -----------
 
-* Specify the "file cabinet", i.e. the directory the folders are rooted in, by
+1. Specify the "file cabinet", i.e. the directory the folders are rooted in, by
 modifying the proper variable within the script.
-```bash
-# This is where all the tickler directories physically live. Modify to taste.
-Filing_cabinet=~/Org/Reference/Tickler
-```
-* Copy bashrc to your file cabinet.
+
+    ```bash
+    # This is where all the tickler directories physically live. Modify to taste.
+    Filing_cabinet=~/Org/Reference/Tickler
+    ```
+2. Copy bashrc to your file cabinet.
 
 And then
 --------
