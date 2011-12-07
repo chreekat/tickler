@@ -9,6 +9,8 @@ Filing_cabinet=~/Org/Reference/Tickler
 #####
 #####
 
+PATH=/bin:/usr/bin
+
 # These two are indexed relative to today
 declare -a Physical_dirs
 declare -a Folder_names
