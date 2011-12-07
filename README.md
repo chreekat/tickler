@@ -31,6 +31,7 @@ And then
 
 * Run tickler. You get a menu to select folders:
 
+    ```
     $ tickler
 
     ** Using /home/b/Org/Reference/Tickler as filing cabinet.
@@ -51,6 +52,7 @@ And then
     14) Dec-20              29) Jan-03
     15) Dec-21              30) Jan-04
     #?
+    ```
 Here we can see I got nothin goin on until March. Heh.
 * When you select a folder, you are dropped to a shell with the PWD set to the
   proper directory. Suggestions: Add a TODO file! Copy those meetings notes
