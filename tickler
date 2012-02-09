@@ -35,7 +35,7 @@ main () {
             export tickler_ps1="[TICKLER] ${Folder_names[$i]}$ "
             mkdir -p $Filing_cabinet/$physical_dir
             cd $Filing_cabinet/$physical_dir
-            bash --rcfile $Filing_cabinet/bashrc
+            bash --rcfile $Filing_cabinet/tickler.bashrc
             cd - >/dev/null
         fi
     done

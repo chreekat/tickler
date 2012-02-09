@@ -24,7 +24,7 @@ modifying the proper variable within the script.
     # This is where all the tickler directories physically live. Modify to taste.
     Filing_cabinet=~/Org/Reference/Tickler
     ```
-2. Copy bashrc to your file cabinet.
+2. Copy tickler.bashrc to your file cabinet.
 
 And then
 --------
