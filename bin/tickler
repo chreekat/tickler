@@ -92,7 +92,12 @@ collect_skipped_items () {
     # Last run time is determined by $Filing_cabinet/last_run's mod time. If
     # the last run was earlier than yesterday, we'll gather any/everything that
     # was skipped between that day and today.
-    
+
+    if [ ! -e "$Filing_cabinet/last_run" ]; then
+        # First run!
+        return
+    fi
+
     skipped_items=""
     one_day=$((60*60*24))
 
