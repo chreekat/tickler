@@ -113,9 +113,9 @@ collect_skipped_items () {
     done
 
     if [ -n "$skipped_items" ]; then
-        echo "Skipped items found!"
+        echo "** Skipped items found!"
         echo ""
-        echo "    $skipped_items" | par
+        echo "$skipped_items" | fmt | awk '{ printf "    "; print }'
         echo ""
         sleep 1
 
